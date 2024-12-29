@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Responsiva</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/normalice.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/e78c345f36.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top py-4">
+        <div class="container contenedor">
+            <!-- Logo -->
+            <a class="navbar-brand font-weight-bold" href="#"><span class="jm">JM</span>-<span
+                    class="dev">DEV</span></a>
+
+            <!-- Botón de colapso para pantallas pequeñas -->
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+
+            <!-- Links -->
+            <div class="conteiner-ul collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav text-center ml-auto">
+                    <li class="nav-item">
+                        <a class="enlace" href="#">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="enlace" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="enlace" href="#">Certifícados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="enlace" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="info">
+            <h1>Jose Montivero</h1>
+            <h3>Soy: <span>Desarrollador Frontend</span></h3>
+            <p>
+                Hola mi nombre es Jose y soy desarrollador frontend, me apasiona el
+                desarrollar interfaces que sean intuitivas y confiables. Me
+                especializo en el uso de tecnologías modernas como React, Next.js,
+                JavaScript, y herramientas como Vite.
+            </p>
+            <p class="diferent">
+                ¡Gracias por visitar mi portfolio! Si tienes alguna pregunta o estás
+                interesado en trabajar conmigo, no dudes en contactarme.
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <section class="proyectos secciones">
+            <div class="content-proyect contenedor">
+                <h2 class="titulos-secction">Proyectos</h2>
+                <div class="grid">
+                    <div class="box">
+                        <h3>UTN Campus</h3>
+                        <p>
+                            El frontend fue Desarrollado en React, El backend lo hice con
+                            Node.js. Utilicé la base de datos en MongoDB
+                        </p>
+                        <button>Visitar sitio</button>
+                    </div>
+                    <div class="box">
+                        <h3>App clima</h3>
+                        <p>
+                            El frontend fue Desarrollado en React, El backend lo hice con
+                            Node.js. Utilicé la base de datos en MongoDB
+                        </p>
+                        <button>Visitar sitio</button>
+                    </div>
+                    <div class="box">
+                        <h3>Landing page</h3>
+                        <p>
+                            El frontend fue Desarrollado en React, El backend lo hice con
+                            Node.js. Utilicé la base de datos en MongoDB
+                        </p>
+                        <button>Visitar sitio</button>
+                    </div>
+                    <div class="box">
+                        <h3>Ecomerce</h3>
+                        <p>
+                            El frontend fue Desarrollado en React, El backend lo hice con
+                            Node.js. Utilicé la base de datos en MongoDB
+                        </p>
+                        <button>Visitar sitio</button>
+                    </div>
+                    <div class="box">
+                        <h3>Administrador</h3>
+                        <p>
+                            El frontend fue Desarrollado en React, El backend lo hice con
+                            Node.js. Utilicé la base de datos en MongoDB
+                        </p>
+                        <button>Visitar sitio</button>
+                    </div>
+                    <div class="box">
+                        <h3>Tienda online</h3>
+                        <p>
+                            El frontend fue Desarrollado en React, El backend lo hice con
+                            Node.js. Utilicé la base de datos en MongoDB
+                        </p>
+                        <button>Visitar sitio</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formacion secciones">
+            <div class="content-formacion contenedor">
+                <h2 class="titulos-secction">Formación</h2>
+
+                <div class="grid-formacion">
+                    <div class="box">
+                        <img src="./img/certificate.jpg!w700wp" class="imagen" alt="certificado" />
+                        <div class="info">
+                            <h3>Tec.Sup en Programación</h3>
+                            <p>
+                                Soy recibido como tecnico superior en Programación de
+                                programas informáticos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./img/certificate.jpg!w700wp" class="imagen" alt="certificado" />
+                        <div class="info">
+                            <h3>Desarrollador Frontend</h3>
+                            <p>
+                                Capacitado en desarrollar interfaces intuitivas y optimizadas
+                                para una mejor experiencia del usuario.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./img/certificate.jpg!w700wp" class="imagen" alt="certificado" />
+                        <div class="info">
+                            <h3>Diseñador Web</h3>
+                            <p>
+                                Capacitado para diseñar y maquetar webs que se adapten a la
+                                necesidad del cliente.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./img/certificate.jpg!w700wp" class="imagen" alt="certificado" />
+                        <div class="info">
+                            <h3>Desarrollador React.js</h3>
+                            <p>
+                                Capacitado para diseñar y maquetar webs que se adapten a la
+                                necesidad del cliente.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./img/certificate.jpg!w700wp" class="imagen" alt="certificado" />
+                        <div class="info">
+                            <h3>Desarrollador FullStack</h3>
+                            <p>
+                                Capacitado para diseñar y maquetar webs que se adapten a la
+                                necesidad del cliente.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./img/certificate.jpg!w700wp" class="imagen" alt="certificado" />
+                        <div class="info">
+                            <h3>Profesor IT</h3>
+                            <p>
+                                Capacitado para diseñar y maquetar webs que se adapten a la
+                                necesidad del cliente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicios secciones">
+            <h2 class="titulos-secction">Mís Servicios</h2>
+            <div class="flex">
+                <div class="content-servicios contenedor">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/graduado.gif" alt="Gif animado" />
+                        <div class="card-body">
+                            <h4 class="card-title">Programador</h4>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary py-3 my-4">Linkedin</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/programador.gif" alt="Gif animado" />
+                        <div class="card-body">
+                            <h4 class="card-title">Desarrollador Frontend</h4>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary py-3 my-4">Linkedin</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/diseno-de-logo.gif" alt="Gif animado" />
+                        <div class="card-body">
+                            <h4 class="card-title">Desarrollador Frontend</h4>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary py-3 my-4">Linkedin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto secciones">
+            <h2 class="titulos-secction">Contáctame</h2>
+            <div class="contenedor">
+                <div class="container mt-5">
+                    <form class="formulario bg-dark p-5 rounded">
+                        <!-- Nombre -->
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre completo</label>
+                            <input type="text" class="input form-control" id="nombre" placeholder="Ingresa tu nombre" />
+                        </div>
+
+                        <!-- Correo electrónico -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="input form-control" id="email" placeholder="ejemplo@correo.com" />
+                        </div>
+
+                        <!-- Teléfono -->
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Número de Teléfono</label>
+                            <input type="tel" class="input form-control" id="telefono" placeholder="123-456-7890" />
+                        </div>
+
+                        <!-- Selección -->
+                        <div class="mb-3">
+                            <label for="seleccion" class="form-label">Selecciona tu país</label>
+                            <select class="form-select" id="seleccion">
+                                <option value="" selected>Elige una opción</option>
+                                <option value="argentina">Argentina</option>
+                                <option value="mexico">México</option>
+                                <option value="españa">España</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <!-- Checkbox -->
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="terminos" />
+                            <label class="form-check-label" for="terminos">
+                                Acepto los términos y condiciones
+                            </label>
+                        </div>
+
+                        <!-- Botón -->
+                        <button type="submit" id="form-btn" class="btn p-3 w-100">
+                            Registrarse
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">&copy;  2024 - Desarrollado por Jose Montivero. Todos los derechos reservados.</a>
+    </footer>
+
+    <!-- Scripts necesarios -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
